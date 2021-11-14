@@ -4,13 +4,13 @@ RAPPORT SUR LE DEVOIR
 D'abord vous remarquerez qu'il existe trois packages.
  
 le package timer comporte les classes qui implementent le timer;
-le package horloge comporte les classes qui implementent la partie graphique (horloge et boutons);
-et le package controleur comporte une classe qui implemente l'action de tous les boutons et la classe main.
+le package clock comporte les classes qui implementent la partie graphique (horloge et boutons);
+et le package controller comporte une classe qui implemente l'action de tous les boutons et la classe main.
 
 COMMENT ÇA MARCHER ?
 
 pour compiler:
-javac -cp build -d build src/timer/*.java src/horloge/*.java src/controleur/*.java
+javac -cp build -d build src/timer/*.java src/clock/*.java src/controller/*.java
 
 où build est le repertoire qui contient les .class; taper la ligne de commande ci-dessus suppose qu'on se trouve dans un repertoire qui contient "build" et "src"
 
